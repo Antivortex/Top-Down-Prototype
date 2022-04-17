@@ -1,0 +1,16 @@
+{
+    "name": "Game",
+    "references": [
+        "EngineCore",
+        "Core",
+        "External"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

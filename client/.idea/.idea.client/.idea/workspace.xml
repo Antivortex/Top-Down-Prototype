@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c1fdd0b1-7756-457d-8791-d553c914feec" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Scenes/GameScene/Components/Model/World/WorldChunk.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Scenes/GameScene/Components/Model/World/WorldChunk.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.client/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.client/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.client/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.client/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.client/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.client/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/CaveMap.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/CaveMap.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/CaveMapExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/CaveMapExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/CaveMapGenerator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/CaveMapGenerator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/CaveMapParams.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/CaveMapParams.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/CaveMapProcessor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/CaveMapProcessor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/CaveMapTile.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/CaveMapTile.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/Demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/Demo/CaveGeneration.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/Demo/CaveGeneration.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/Demo/CaveMapGeneratorBehaviour.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/Demo/CaveMapGeneratorBehaviour.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/Demo/Cube.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/Demo/Cube.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/Demo/DemoMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/Demo/DemoMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/Demo/DemoPhysicsMaterial.physicMaterial" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/Demo/DemoPhysicsMaterial.physicMaterial.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/Demo/MapGeneratorTest.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/Demo/MapGeneratorTest.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/MapRegion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/MapRegion.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/MapRoom.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/MapRoom.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/PhysGen.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/PhysGen.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/PhysGenOld.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/PhysGenOld.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/PhysGenParams.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/PhysGenParams.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/RegionsFinder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/RegionsFinder.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/RoomOutput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/RoomOutput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/MeshGens.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/MeshGens/MarchingSquaresMeshGen.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/MeshGens/MarchingSquaresMeshGen.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/SceneSystem/SceneResourceProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EngineCore/SceneSystem/SceneResourceProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/StatsSystem/StatValue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EngineCore/StatsSystem/StatValue.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EngineCore/Tools/DialogueNodeEditor/Editor/Menus/NodeMenus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EngineCore/Tools/DialogueNodeEditor/Editor/Menus/NodeMenus.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/SceneAssets/GameScene/Resources/GameScene.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/SceneAssets/GameScene/Resources/GameScene.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/SceneAssets/GameScene/Resources/PlayerCharacter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/SceneAssets/GameScene/Resources/PlayerCharacter.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Scenes/GameScene/Components/Model/Actors/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Scenes/GameScene/Components/Model/Actors/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Scenes/GameScene/Components/Model/Level.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Scenes/GameScene/Components/Model/World.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Scenes/GameScene/Components/Model/Level/LevelMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Scenes/GameScene/Components/Model/World/WorldMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Scenes/GameScene/Components/Model/Level/LevelMap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Scenes/GameScene/Components/Model/World/WorldMap.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Scenes/GameScene/Components/Model/Level/LevelMapFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Scenes/GameScene/Components/Model/World/WorldChunkFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Scenes/GameScene/Components/Model/Level/LevelMapFactory.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Scenes/GameScene/Components/Model/World/WorldChunkFactory.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Scenes/GameScene/GameSceneResourceProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Scenes/GameScene/GameSceneResourceProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_External/JsonDotNet.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_External/JsonDotNet/Assemblies.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_External/JsonDotNet/Assemblies/AOT.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_External/JsonDotNet/Assemblies/AOT/Newtonsoft.Json.XML" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_External/JsonDotNet/Assemblies/AOT/Newtonsoft.Json.XML.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_External/JsonDotNet/Assemblies/AOT/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_External/JsonDotNet/Assemblies/AOT/Newtonsoft.Json.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_External/JsonDotNet/Assemblies/Standalone.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_External/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.XML" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_External/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.XML.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_External/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_External/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_External/JsonDotNet/Assemblies/Windows.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_External/JsonDotNet/Assemblies/Windows/Newtonsoft.Json.XML" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_External/JsonDotNet/Assemblies/Windows/Newtonsoft.Json.XML.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_External/JsonDotNet/Assemblies/Windows/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_External/JsonDotNet/Assemblies/Windows/Newtonsoft.Json.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_External/JsonDotNet/Documentation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_External/JsonDotNet/Documentation/Json Net for Unity 2.0.1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_External/JsonDotNet/Documentation/Json Net for Unity 2.0.1.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_External/JsonDotNet/JsonDotNet.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_External/JsonDotNet/JsonDotNet.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_External/JsonDotNet/JsonDotNet201Source.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_External/JsonDotNet/JsonDotNet201Source.zip.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_External/JsonDotNet/link.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_External/JsonDotNet/link.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/Packages-Update.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/Packages-Update.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/IView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/TaskManagement/TaskBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/TaskManagement/TaskManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/TaskManagement/CompositeTask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/TaskManagement/TaskBatch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/SceneSystem/SceneParamsBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/TaskManagement/TaskSequence.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/StatsSystem/StatValue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Scenes/ScenePrefabs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/SceneSystem/ISceneResourceProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Scenes/SceneConstants.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/SceneSystem/SceneResourceProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/SceneSystem/SceneControllerBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/SceneSystem/ICurtainController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/SceneSystem/SceneSystemConstants.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/SceneSystem/SceneManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.5.7/Editor/PlasticSCM/WebApi/CredentialsResponse.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Extensions/TransformExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Tools/NodeEditorBase/Editor/Utils/NodeUtilParams.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.5.7/Editor/PlasticSCM/WebApi/PlasticScmRestApiClient.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Extensions/MathExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Model/ComponentSystem/ActorComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Controls/TopDownPlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Tools/NodeEditorBase/Editor/Views/ViewBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Tools/NodeEditorBase/Editor/Utils/NodeEditorUtility.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Tools/NodeEditorBase/Editor/Utils/NodeUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.5.7/Editor/PlasticSCM/AssetMenu/AssetMenuOperations.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Scenes/GameScene/Components/View/PlayerView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Controls/KeyboardMouseInputProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Model/ComponentSystem/Actor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Tools/NodeEditorBase/Editor/Windows/NodeEditorWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Tools/NodeEditorBase/Editor/ContextMenus/UnloadGraphAction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Tools/NodeEditorBase/Editor/Windows/INodeWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Controls/IInputProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Tools/NodeEditorBase/Editor/ContextMenus/LoadGraphAction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Tools/NodeEditorBase/Editor/ContextMenus/RemoveNodeAction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Tools/NodeEditorBase/Editor/Windows/Popups/CreateGraphPopupWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Scenes/GameScene/GameSceneController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Tools/NodeEditorBase/Editor/ContextMenus/CreateGraphAction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Tools/NodeEditorBase/Editor/Windows/Popups/NodeEditorPopupWindowBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Tools/NodeEditorBase/Editor/ContextMenus/SaveGraphAction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Scenes/GameScene/Components/Model/GameState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Scenes/GameScene/GameSceneResourceProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Tools/NodeEditorBase/Editor/ContextMenus/ContextMenuHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Tools/NodeEditorBase/Editor/Windows/Popups/ChangeLabelPopupWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Tools/NodeEditorBase/Editor/ContextMenus/ContextMenuActionBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Scenes/GameScene/GameSceneParams.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Tools/NodeEditorBase/Scripts/Data/Nodes/NodeInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Tools/NodeEditorBase/Scripts/Data/Nodes/NodeBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Tools/NodeEditorBase/Scripts/Data/NodeGraph.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Tools/NodeEditorBase/Scripts/Data/Nodes/NodeOutput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Tools/NodeEditorBase/Scripts/Data/Nodes/NodeGUIUtility.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Tools/NodeEditorBase/Scripts/Utils/IPropertiesModifier.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Tools/DialogueNodeEditor/Editor/Views/NodeWorkView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Camera/TopDownCameraController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Tools/DialogueNodeEditor/Editor/ContextMenus/AddChoiceNodeAction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Tools/DialogueNodeEditor/Scripts/Data/Nodes/PhraseNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Tools/DialogueNodeEditor/Scripts/Data/NodeFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Tools/DialogueNodeEditor/Editor/ContextMenus/AddPhraseNodeAction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Math/Utils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Model/IGameState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Tools/DialogueNodeEditor/Scripts/Data/Nodes/ChoiceNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Tools/DialogueNodeEditor/Scripts/Data/NodeEnums.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/UI/UiManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Base/ComponentBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_External/MonoGame/NetRandom.Implementations.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_External/MonoGame/NetRandomSeed.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/UI/UIWidgetBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_External/MonoGame/NetRandom.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.5.7/Editor/PlasticSCM/PlasticWindow.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Core/Extensions/ActionExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/AppController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Core/Math/Utils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Core/Math/IVec2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Core/DI/IContextInitializable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/93BEF244-A0F4-4B9F-89E5-3972954BFC82/34/b7e09374/Component.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Core/DI/IContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Core/DI/ServiceKey.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Core/DI/IContextReleasable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Core/DI/SimpleContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/99258562-0D64-4271-98DD-F3A0E1467733/82/545c493c/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/93BEF244-A0F4-4B9F-89E5-3972954BFC82/6c/cc71076b/Logger.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.5.7/Tests/Editor/Collaborate/Models/TestSourceControlProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Scenes/GameScene/Components/Model/World/WorldMap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Scenes/GameScene/Components/Model/World/WorldChunkFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Scenes/GameScene/Components/Model/Actors/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Scenes/GameScene/Components/Model/Stats/PlayerStatsComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Scenes/GameScene/Components/Model/ActorMessages/DamagMessage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Scenes/GameScene/Components/Model/ActorMessages/TakeEnergyMessage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Scenes/GameScene/Components/Model/Actors/PlayerFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Scenes/GameScene/Components/Model/ActorMessages/MessageType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EngineCore/Tools/DialogueNodeEditor/Scripts/Data/Nodes/NodeStructures/NodeText.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.5.7/Editor/PlasticSCM/Tool/ToolConstants.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Game/Scripts/Scenes/GameScene/Components/Model/Actors/Player.cs" />
+      <option value="$PROJECT_DIR$/Assets/EngineCore/StatsSystem/StatValue.cs" />
+      <option value="$PROJECT_DIR$/Assets/EngineCore/Tools/DialogueNodeEditor/Editor/Menus/NodeMenus.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Scripts/Scenes/GameScene/GameSceneResourceProvider.cs" />
+      <option value="$PROJECT_DIR$/Assets/EngineCore/SceneSystem/SceneResourceProvider.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Scripts/Scenes/GameScene/Components/Model/World/WorldMap.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Scripts/Scenes/GameScene/Components/Model/World/WorldChunkFactory.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game/Scripts/Scenes/GameScene/Components/Model/World/WorldChunk.cs" />
+    </changedPaths>
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="riderModule/invalid/Default Android Facet" />
+    </ignored-facets>
+  </component>
+  <component name="ProjectId" id="1p4oXSVNPPTaWnqWOrzOKMTSRZJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3498888" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="DiCon&#9;FILE&#9;file://C:/Repos/textgame/client/Assets/_External/Plugins/Zenject/Source/Main/DiContainer.cs&#10;AnyNe&#9;null&#9;null&#10;MOnoInstaller&#9;null&#9;null&#10;Installer&#9;FILE&#9;file://C:/Repos/textgame/client/Assets/Game/Scripts/Scenes/GameScene/GameSceneInstaller.cs&#10;SceneIns&#9;FILE&#9;file://C:/Repos/textgame/client/Assets/EngineCore/SceneSystem/ISceneInstaller.cs&#10;GameInstaller&#9;FILE&#9;file://C:/Repos/textgame/client/Assets/Game/Scripts/Scenes/GameScene/GameSceneInstaller.cs&#10;GameInsta&#9;null&#9;null&#10;IGame&#9;FILE&#9;file://C:/Repos/textgame/client/Assets/EngineCore/Gameplay/IGameState.cs&#10;AppIn&#9;null&#9;null&#10;PlayerCon&#9;FILE&#9;file://C:/Repos/textgame/client/Assets/EngineCore/TopDown/Controls/PlayerController.cs&#10;App&#9;FILE&#9;file://C:/Repos/textgame/client/Assets/Game/Scripts/AppController.cs&#10;GameS&#9;FILE&#9;file://C:/Repos/textgame/client/Assets/Game/Scripts/Scenes/GameScene/GameSceneController.cs&#10;GameSce&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="12068">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" value="12068" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor &amp; Play" />
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <created>1625314772111</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625314772111</updated>
+      <workItem from="1625314785774" duration="4394000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Game/Scripts/Installers/AppInstaller.cs</url>
+          <line>14</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Game/Scripts/Installers/AppInstaller.cs" initialLine="12" />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/EngineCore/CaveMap/PhysGenOld.cs</url>
+          <line>125</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/PhysGen.cs" initialLine="130">
+            <startOffsets>
+              <option value="-1" />
+            </startOffsets>
+            <endOffsets>
+              <option value="-1" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/EngineCore/CaveMap/PhysGenOld.cs</url>
+          <line>120</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/PhysGen.cs" initialLine="126">
+            <startOffsets>
+              <option value="-1" />
+            </startOffsets>
+            <endOffsets>
+              <option value="-1" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/EngineCore/CaveMap/PhysGenOld.cs</url>
+          <line>187</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/EngineCore/CaveMap/PhysGen.cs" initialLine="191">
+            <startOffsets>
+              <option value="-1" />
+            </startOffsets>
+            <endOffsets>
+              <option value="-1" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/EngineCore/CaveMap/Demo/CaveMapGeneratorBehaviour.cs</url>
+          <line>98</line>
+          <properties documentPath="C:\Repos\cavegame\client\Assets\EngineCore\CaveMap\Demo\CaveMapGeneratorBehaviour.cs" initialLine="98" />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="14" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

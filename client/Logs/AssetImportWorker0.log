@@ -1,0 +1,567 @@
+Unity Editor version:    2021.2.15f1 (3b8567f665bb)
+Branch:                  2021.2/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.4 (Build 20F71)
+Darwin version:          20.5.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/antonviharev/repos/top_down_prototype/client
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52313
+Successfully changed project path to: /Users/antonviharev/repos/top_down_prototype/client
+/Users/antonviharev/repos/top_down_prototype/client
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+OpenGLES2 and OpenGLES3 have been deprecated on iOS.
+Refreshing native plugins compatible for Editor in 22.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.15f1 (3b8567f665bb)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/antonviharev/repos/top_down_prototype/client/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56191
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.000540 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 21.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.479 seconds
+Domain Reload Profiling:
+	ReloadAssembly (479ms)
+		BeginReloadAssembly (59ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (337ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (93ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (183ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (55ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (21ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (75ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000410 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.612 seconds
+Domain Reload Profiling:
+	ReloadAssembly (613ms)
+		BeginReloadAssembly (73ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (457ms)
+			LoadAssemblies (31ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (145ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (206ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (31ms)
+				ProcessInitializeOnLoadAttributes (140ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+OpenGLES2 and OpenGLES3 have been deprecated on iOS.
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1620 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (43.7 KB). Loaded Objects now: 2088.
+Memory consumption went from 160.6 MB to 160.6 MB.
+Total: 2.002584 ms (FindLiveObjects: 0.065125 ms CreateObjectMapping: 0.020750 ms MarkObjects: 1.873458 ms  DeleteObjects: 0.042541 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 341512.786201 seconds.
+  path: Assets/EngineCore
+  artifactKey: Guid(87ff15f079b83a04aab9081483b1e41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EngineCore using Guid(87ff15f079b83a04aab9081483b1e41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ff6c5d756ef00cf8124c8a6e9d6396') in 0.003614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.741419 seconds.
+  path: Assets/EngineCore/EngineCore.asmdef
+  artifactKey: Guid(db1beda14bda6814da262614f91249f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EngineCore/EngineCore.asmdef using Guid(db1beda14bda6814da262614f91249f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da875e8cd506da93e9345ca476a3145') in 0.415207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.694017 seconds.
+  path: Assets/EngineCore/Tools
+  artifactKey: Guid(cadb1b2fcef74e548a75358a91730f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EngineCore/Tools using Guid(cadb1b2fcef74e548a75358a91730f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdddeb19454dd04209215befcbf12719') in 0.001374 seconds 
+========================================================================
+Received Prepare
+OpenGLES2 and OpenGLES3 have been deprecated on iOS.
+Registering precompiled user dll's ...
+Registered in 0.000391 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x289487000 may have been prematurely finalized
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.591 seconds
+Domain Reload Profiling:
+	ReloadAssembly (592ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (437ms)
+			LoadAssemblies (30ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (146ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (194ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (25ms)
+				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1581 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (21.9 KB). Loaded Objects now: 2058.
+Memory consumption went from 163.9 MB to 163.9 MB.
+Total: 1.883542 ms (FindLiveObjects: 0.062500 ms CreateObjectMapping: 0.020667 ms MarkObjects: 1.784833 ms  DeleteObjects: 0.015125 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+OpenGLES2 and OpenGLES3 have been deprecated on iOS.
+Registering precompiled user dll's ...
+Registered in 0.000657 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x29aac7000 may have been prematurely finalized
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.583 seconds
+Domain Reload Profiling:
+	ReloadAssembly (583ms)
+		BeginReloadAssembly (80ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (434ms)
+			LoadAssemblies (29ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (144ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (193ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (27ms)
+				ProcessInitializeOnLoadAttributes (126ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1581 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9 unused Assets / (22.7 KB). Loaded Objects now: 2061.
+Memory consumption went from 164.0 MB to 164.0 MB.
+Total: 2.156000 ms (FindLiveObjects: 0.079583 ms CreateObjectMapping: 0.025416 ms MarkObjects: 2.041250 ms  DeleteObjects: 0.008708 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 56.206776 seconds.
+  path: Assets/Game/Scripts
+  artifactKey: Guid(7ddab48d72da20144bc11667666fa3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Scripts using Guid(7ddab48d72da20144bc11667666fa3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f5ef218c8ce05298d853f0230ce3a5') in 0.002815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.885012 seconds.
+  path: Assets/EngineCore/SceneSystem
+  artifactKey: Guid(9ee681e3ca192d34eb25d940a0bb32f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EngineCore/SceneSystem using Guid(9ee681e3ca192d34eb25d940a0bb32f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a060bf17368c4943ca38531e106371ca') in 0.001298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.469215 seconds.
+  path: Assets/EngineCore/StatsSystem
+  artifactKey: Guid(df98ddaff68d47ae8f7a30abc73473b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EngineCore/StatsSystem using Guid(df98ddaff68d47ae8f7a30abc73473b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f12d7ca1217df637f120fda83180c6cf') in 0.001355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.919300 seconds.
+  path: Assets/EngineCore/TaskManagement
+  artifactKey: Guid(b72c06a84bbb9364b9f40b2f3429bd6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EngineCore/TaskManagement using Guid(b72c06a84bbb9364b9f40b2f3429bd6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5502812427fae8b6f16f14faf97f442e') in 0.001197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.135291 seconds.
+  path: Assets/Game/Scripts/Scenes
+  artifactKey: Guid(6f69d5d6d7e44931b8a92ad6afe08cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Scripts/Scenes using Guid(6f69d5d6d7e44931b8a92ad6afe08cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2eba6af1783e8c824218c558261948') in 0.001393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.555220 seconds.
+  path: Assets/Game/Scripts/Scenes/ScenePrefabs.cs
+  artifactKey: Guid(45f4ff4f053f430a88b84a2c523e919d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Scripts/Scenes/ScenePrefabs.cs using Guid(45f4ff4f053f430a88b84a2c523e919d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '631a7a0594dfcd7b8b830294f8f93ea8') in 0.158172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.769393 seconds.
+  path: Assets/Game/Scripts/Scenes/SceneConstants.cs
+  artifactKey: Guid(751a063030978254fb33e4318e0043fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Scripts/Scenes/SceneConstants.cs using Guid(751a063030978254fb33e4318e0043fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b498bab9846cb50779d6640c8fa5e0c') in 0.001350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.148383 seconds.
+  path: Assets/Game/Scripts/Scenes/GameScene
+  artifactKey: Guid(6909338af0c3dcb4a875492ec6d5e1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Scripts/Scenes/GameScene using Guid(6909338af0c3dcb4a875492ec6d5e1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dab430a2390b413c0f424b71d9c0da7') in 0.001326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.399511 seconds.
+  path: Assets/Game/Scripts/Scenes/GameScene/GameSceneController.cs
+  artifactKey: Guid(58006cdb6cc71624db91e4bb84ecb289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Scripts/Scenes/GameScene/GameSceneController.cs using Guid(58006cdb6cc71624db91e4bb84ecb289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6274ea644a7780c05955baf0b6702dd5') in 0.001034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.404025 seconds.
+  path: Assets/Game/Scripts/Scenes/GameScene/GameSceneParams.cs
+  artifactKey: Guid(6ba11dbdc8fe8dc43a0b92ec7e64ba70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Scripts/Scenes/GameScene/GameSceneParams.cs using Guid(6ba11dbdc8fe8dc43a0b92ec7e64ba70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef5ecc344348ebe49196a50ee3144ca') in 0.000907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.624300 seconds.
+  path: Assets/_External/External.asmdef
+  artifactKey: Guid(f8b5ee43972c23243a7e82c33f147aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_External/External.asmdef using Guid(f8b5ee43972c23243a7e82c33f147aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2123069002cba120338fa86288363229') in 0.001351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.016896 seconds.
+  path: Assets/Game/SceneAssets/GameScene/Resources/GameScene.prefab
+  artifactKey: Guid(9fb68f2508d858b4894d48db83e84746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/SceneAssets/GameScene/Resources/GameScene.prefab using Guid(9fb68f2508d858b4894d48db83e84746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19a50fd7ac43ec85ac931030aadabc9') in 0.570419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.324226 seconds.
+  path: Assets/Game/SceneAssets/GameScene/Resources/GameScene.prefab
+  artifactKey: Guid(9fb68f2508d858b4894d48db83e84746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/SceneAssets/GameScene/Resources/GameScene.prefab using Guid(9fb68f2508d858b4894d48db83e84746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcbaf836be1aebc90ced854b285f46b6') in 0.006850 seconds 
+========================================================================
+Received Prepare
+OpenGLES2 and OpenGLES3 have been deprecated on iOS.
+Registering precompiled user dll's ...
+Registered in 0.000644 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x29abdf000 may have been prematurely finalized
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.586 seconds
+Domain Reload Profiling:
+	ReloadAssembly (587ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (435ms)
+			LoadAssemblies (28ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (142ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (194ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (26ms)
+				ProcessInitializeOnLoadAttributes (129ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1581 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9 unused Assets / (22.0 KB). Loaded Objects now: 2072.
+Memory consumption went from 177.0 MB to 177.0 MB.
+Total: 1.885833 ms (FindLiveObjects: 0.057042 ms CreateObjectMapping: 0.020250 ms MarkObjects: 1.799291 ms  DeleteObjects: 0.008541 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+OpenGLES2 and OpenGLES3 have been deprecated on iOS.
+Registering precompiled user dll's ...
+Registered in 0.000457 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x287c9b000 may have been prematurely finalized
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.586 seconds
+Domain Reload Profiling:
+	ReloadAssembly (587ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (434ms)
+			LoadAssemblies (29ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (143ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (190ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (26ms)
+				ProcessInitializeOnLoadAttributes (125ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1581 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9 unused Assets / (22.6 KB). Loaded Objects now: 2075.
+Memory consumption went from 177.2 MB to 177.1 MB.
+Total: 2.011792 ms (FindLiveObjects: 0.072666 ms CreateObjectMapping: 0.022250 ms MarkObjects: 1.905084 ms  DeleteObjects: 0.011042 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 124.811561 seconds.
+  path: Assets/Game/SceneAssets/GameScene/Resources/GameScene.prefab
+  artifactKey: Guid(9fb68f2508d858b4894d48db83e84746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/SceneAssets/GameScene/Resources/GameScene.prefab using Guid(9fb68f2508d858b4894d48db83e84746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c9b1e7a9c97e06365f104a57afa3978') in 0.042014 seconds 
+========================================================================
+Received Prepare
+OpenGLES2 and OpenGLES3 have been deprecated on iOS.
+Registering precompiled user dll's ...
+Registered in 0.000582 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x29c0c7000 may have been prematurely finalized
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.593 seconds
+Domain Reload Profiling:
+	ReloadAssembly (594ms)
+		BeginReloadAssembly (83ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (441ms)
+			LoadAssemblies (33ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (144ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (195ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (26ms)
+				ProcessInitializeOnLoadAttributes (129ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1581 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9 unused Assets / (22.0 KB). Loaded Objects now: 2078.
+Memory consumption went from 177.4 MB to 177.4 MB.
+Total: 2.054917 ms (FindLiveObjects: 0.071125 ms CreateObjectMapping: 0.024167 ms MarkObjects: 1.950375 ms  DeleteObjects: 0.008541 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
